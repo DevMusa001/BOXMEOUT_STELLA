@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "analyze": "ANALYZE=true next build",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
@@ -23,6 +24,7 @@
     "recharts": "^2.12.0"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "14.2.0",
     "@storybook/nextjs": "^8.0.0",
     "@testing-library/jest-dom": "^6.0.0",
     "@testing-library/react": "^16.0.0",
